@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 65px;
+	background: #5FAF87 ;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+}
+.logo {
+	width: 40%;
+	float: left;
+	line-height: 80px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+
+}
+nav {
+	float: right;
+	line-height: 80px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing:4px;
+	font-size: 17px;
+	margin: 0 10px;
+	color: #363677;
+}
+
+
+.cnt-info-col a {
+    box-sizing: border-box;
+    color: #4d4d4d;
+    text-decoration: none;
+    margin-top: 23px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+}
+
+.cnt-info-col a:hover {
+    color: #f47514;
+}
+
+section.header-bg-parent {
+    position: relative;
+    top: -83px;
+}
+
+.header-col1 {
+    box-sizing: border-box;
+    float: left;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+}
+
+.header-col2 {
+    box-sizing: border-box;
+    float: right;
+    background-image: url(../images/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 75%;
+}
+
+
+.header-col1 h5 {
+    box-sizing: border-box;
+    color: #3b3663;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.header-col1 h2 {
+    color: #3b3663;
+    font-size: 60px;
+}
+
+.header-col1 h2 {
+    color: #3b3663;
+    font-size: 60px;
+    line-height: 43px;
+    margin: 21px 0px 15px;
+}
+
+.header-col1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0px 0px;
+}
+
+button.common-btn {
+    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 800;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+
+button.common-btn:hover {
+    background: linear-gradient(180deg, #6759e8, #8b81ef);
+}
+
+section.header-bg-parent:after {
+    box-sizing: border-box;
+    content: "SEO";
+    position: absolute;
+    color: #fafbfc;
+    top: 250px;
+    left: -140px;
+    font-size: 230px;
+    transform: rotate(-90deg);
+    font-family: "Rubik";
+    font-weight: 800;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+.hedaer-bg-par-img {
+    position: absolute;
+    bottom: -110px;
+}
+
+
+
+
+
+
+
+
+/*About - body*/
+.about-body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    
+}
+
+.about1{
+    background: url(2.jpg) no-repeat left;
+    background-size: 50%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 150px 0;
+}
+.inner-section{
+    width: 35%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.aboutus
+{
+    padding-top: 90px;
+    background-color:darkcyan;
+}
+
+.aboutus h1
+{
+    padding:  50px;
+    font-size: 50px;
+}
+
+.aboutus p{
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.about-us
+{
+	background-color: #34495e;
+}
+
+.team-sec{
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 60px;
+
+}
+
+
+
+.team-sec h1
+{
+	text-transform:uppercase;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.border
+{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background:#3498db;
+	margin-bottom: 30px;
+}
+
+
+
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+.ps a img{
+	width: 100%;
+	filter:grayscale(100%);
+	transition: 0.4s all;
+}
+
+
+.ps a:hover > img
+{
+	filter: none;
+}
+
+.seca
+{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+
+.seca:target{
+	height: auto;
+
+}
+
+.seca p
+{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.name
+{
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;;
+	font-size: 22px;
+}
